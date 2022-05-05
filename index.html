@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Weebpage</title>
-    <style media="screen">
-      #headerBox {
-        color: purple;
-        border: 2px dotted black;
-      }
-      p {
-        color: blue;
-      }
-      .paraBox {
-        border: 2px solid black;
-      }
-      #dottedBox {
-        border: 5px solid black;
-      }
 
-    </style>
-  </head>
-  <body>
-    <div id="dottedBox">
+<head>
+  <meta charset="utf-8">
+  <title>My Weebpage</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style media="screen">
+    div {
+      border: 2px solid #000000;
+      padding: 10px
+    }
+   .navBox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
-      <div id="headerBox">
-        <h1>TheDolphinsAreGood</h1>
-        <p>The dolphins have shot at the superbowl</p>
-      </div>
+  </style>
+</head>
 
-      <div class="paraBox">
-        <h2>Treeke is the best reciever in the leauge</h2>
-        <p>he is the fastest most explosive reciever in the NFL</p>
-      </div>
+<body>
+  <div id="content">
 
-      <div class="paraBox">
-        <h2>Get To School</h2>
-        <p>Play my <a href="www/index.html">game</a>.</p>
-      </div>
-      <p> i like tacos </p>
+    <div id="headerBox">
+      <h1>TheDolphinsAreGood</h1>
+      <p>The dolphins have shot at the superbowl</p>
     </div>
 
+    <div class="navBox">
+      <div class="home">
+        Home
+      </div>
+      <div class="home">
+        About
+      </div>
+      <div class="home">
+        Get2School
+      </div>
 
-  </body>
+    </div>
+
+    <div class="paraBox">
+      <h2>Treeke is the best reciever in the leauge</h2>
+      <p>he is the fastest most explosive reciever in the NFL</p>
+    </div>
+
+    <div class="paraBox">
+      <h2>Get To School</h2>
+      <p>Play my <a href="https://ryanbischof.github.io/www/index.html">game</a>.</p>
+    </div>
+
+  </div>
+</body>
+
 </html>
